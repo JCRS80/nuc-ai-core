@@ -1,0 +1,30 @@
+# Entornos y cachés de Python
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Control de versiones y metadatos
+.git
+.gitignore
+.github/
+
+# Pruebas (no se necesitan en la imagen de runtime)
+tests/
+
+# Docker y documentación
+Dockerfile
+.dockerignore
+docker-compose*.yml
+*.md
+
+# Entorno y editores
+.env
+.env.*
+.vscode/
+.idea/
+*.log

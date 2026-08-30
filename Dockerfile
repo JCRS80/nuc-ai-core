@@ -25,7 +25,7 @@ RUN --mount=type=cache,target=/root/.cache/uv \
 
 # 2) Copia el código fuente e instala el propio proyecto
 COPY src ./src
-COPY README.md ./
+RUN echo "# nuc-ai-core\nBackend de telemetría y orquestación de agentes — NUC Lab." > README.md
 RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync --frozen --no-dev
 

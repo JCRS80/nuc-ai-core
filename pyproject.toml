@@ -12,6 +12,7 @@ dependencies = [
     "asyncpg>=0.31.0",
     "fastapi>=0.141.1",
     "pydantic-settings>=2.15.0",
+    "qdrant-client>=1.19.1",
     "sqlmodel>=0.0.42",
     "uvicorn[standard]>=0.52.4",
 ]
